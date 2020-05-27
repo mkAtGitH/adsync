@@ -1,4 +1,4 @@
-FROM quay.io/openshift-release-dev/ocp-v4.0-art-dev
+FROM quay.io/openshift-pipeline/openshift-cli:v0.8.0
 
 RUN yum install openldap-clients -y
 
