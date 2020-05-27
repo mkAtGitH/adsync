@@ -1,4 +1,4 @@
-FROM quay.io/openshift-pipeline/openshift-cli:v0.8.0
+FROM registry.redhat.io/openshift4/ose-cli
 
 RUN yum install openldap-clients -y
 
