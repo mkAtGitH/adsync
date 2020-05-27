@@ -1,4 +1,4 @@
-FROM registry.redhat.io/openshift4/ose-cli
+FROM openshift/ose-cli
 
 RUN yum install openldap-clients -y
 
