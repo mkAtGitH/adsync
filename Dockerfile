@@ -1,4 +1,4 @@
-FROM default-route-openshift-image-registry.apps.cluster-p001.msp.upc.biz/openshift/cli
+FROM quay.io/openshift-release-dev/ocp-v4.0-art-dev
 
 RUN yum install openldap-clients -y
 
